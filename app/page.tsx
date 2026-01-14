@@ -1,9 +1,10 @@
 import { Button } from "@/components/ui/button";
+import { db } from "@/lib/db";
 import Image from "next/image";
 
-export default function Home() {
+export default async function Home() {
   return(
-    <div className="flex flex-col items-center justify-center h-screen bg-color-100">
+    <div className="flex flex-col items-center justify-center h-screen bg-[#414141]">
     <Button>
       Get Started
     </Button>
